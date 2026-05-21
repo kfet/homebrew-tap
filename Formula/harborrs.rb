@@ -7,28 +7,28 @@
 class Harborrs < Formula
   desc "Self-hosted RSS server speaking the Google Reader API dialect"
   homepage "https://github.com/kfet/harborrs"
-  version "0.4.3"
+  version "0.4.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kfet/harborrs/releases/download/v0.4.3/harborrs-0.4.3-darwin-arm64.tar.gz"
-      sha256 "5ba7778419f3b601aae37e36c404fee3bda557626bbe7018abc55f7d8572c82a"
+      url "https://github.com/kfet/harborrs/releases/download/v0.4.4/harborrs-0.4.4-darwin-arm64.tar.gz"
+      sha256 "0b988874b554aa57bba86e6e88fa903ff085a3290bb34fb55a374614aa2539b3"
     end
     on_intel do
-      url "https://github.com/kfet/harborrs/releases/download/v0.4.3/harborrs-0.4.3-darwin-amd64.tar.gz"
-      sha256 "17401efa654fe7d9fb465c9b77a9560e5a82ec1c4e7d57d4423f633ac0e26890"
+      url "https://github.com/kfet/harborrs/releases/download/v0.4.4/harborrs-0.4.4-darwin-amd64.tar.gz"
+      sha256 "7c87a4ec2fdb00725a0efb0c3902824cffaca6f6b958c2d8382e10848a0f1cbd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kfet/harborrs/releases/download/v0.4.3/harborrs-0.4.3-linux-arm64.tar.gz"
-      sha256 "eb5fc297d5c706f8b023913c43b43a3b3fe28bd85606a54000278611d28fe148"
+      url "https://github.com/kfet/harborrs/releases/download/v0.4.4/harborrs-0.4.4-linux-arm64.tar.gz"
+      sha256 "d10a423ae70bcc4aed9905ed285f517b2cef884ac87857daa5b61e7e27b07aee"
     end
     on_intel do
-      url "https://github.com/kfet/harborrs/releases/download/v0.4.3/harborrs-0.4.3-linux-amd64.tar.gz"
-      sha256 "3a153fa8d1e2f9b93ca2879cfcf37a140d07b1fb87558776f17a8518cabe314a"
+      url "https://github.com/kfet/harborrs/releases/download/v0.4.4/harborrs-0.4.4-linux-amd64.tar.gz"
+      sha256 "6773f01594c4b99a21b03c8cf201f160bd081935a34a40ba3acc38f201713609"
     end
   end
 
