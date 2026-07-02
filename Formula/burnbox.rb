@@ -7,28 +7,28 @@
 class Burnbox < Formula
   desc "Server-blind, one-time secret sharing (burn-after-reading)"
   homepage "https://github.com/kfet/burnbox"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kfet/burnbox/releases/download/v0.1.7/burnbox-0.1.7-darwin-arm64.tar.gz"
-      sha256 "9afebab646dbdfb34c1dca3a2f69a96a33db14a7c6c1bd69b43d94b6d1d5e9ef"
+      url "https://github.com/kfet/burnbox/releases/download/v0.1.8/burnbox-0.1.8-darwin-arm64.tar.gz"
+      sha256 "e4f73698e9d4d5c337ea0b8db39008228d74691124f0f63c08bd8d216395f78f"
     end
     on_intel do
-      url "https://github.com/kfet/burnbox/releases/download/v0.1.7/burnbox-0.1.7-darwin-amd64.tar.gz"
-      sha256 "beaf72b4170d2a2bbf38ea02c9482d1f1e3c9be3fab0e484bae410334f68770d"
+      url "https://github.com/kfet/burnbox/releases/download/v0.1.8/burnbox-0.1.8-darwin-amd64.tar.gz"
+      sha256 "a9bdbe1024043e8ba0db3a45d77bcd941af85b1b764152520ff09fee0dcf5fbf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kfet/burnbox/releases/download/v0.1.7/burnbox-0.1.7-linux-arm64.tar.gz"
-      sha256 "0b0d3e7d930f140551eae049c6680656b98e9b220c701659f01281634efe1c5f"
+      url "https://github.com/kfet/burnbox/releases/download/v0.1.8/burnbox-0.1.8-linux-arm64.tar.gz"
+      sha256 "f50e19c3f9d99ce436325ca4496c72b945219dc6b159eec2f438969593f62b2d"
     end
     on_intel do
-      url "https://github.com/kfet/burnbox/releases/download/v0.1.7/burnbox-0.1.7-linux-amd64.tar.gz"
-      sha256 "2551ca9c6591c9658278bec34869de3abe3b3d6189f297e586dd2e9077131700"
+      url "https://github.com/kfet/burnbox/releases/download/v0.1.8/burnbox-0.1.8-linux-amd64.tar.gz"
+      sha256 "752c5e83f43ac71a3dd20e0b772a6ac0839b6c1c94baea18e121761ab67306d4"
     end
   end
 
