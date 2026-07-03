@@ -40,3 +40,5 @@ class Gorun < Formula
     assert_match "gorun", shell_output("#{bin}/gorun version 2>&1")
   end
 end
+
+# verify-marker 1783068594
