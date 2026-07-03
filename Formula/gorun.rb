@@ -13,22 +13,22 @@ class Gorun < Formula
   on_macos do
     on_arm do
       url "https://github.com/kfet/gorun/releases/download/v0.1.0/gorun-0.1.0-darwin-arm64.tar.gz"
-      sha256 "cbcb35a00139a21b6efa017e829504177bc7980fbb6023e90faf7b6773dbd699"
+      sha256 "c9a3961911f1c0a2dd6b21d6961d4a8ae1e6bad2d4067aafa8b59e4c8446c3d4"
     end
     on_intel do
       url "https://github.com/kfet/gorun/releases/download/v0.1.0/gorun-0.1.0-darwin-amd64.tar.gz"
-      sha256 "937103099dcb37eb14452498204b1058d6c415489be475ced9b573c4ba769bc3"
+      sha256 "0c581561926e48aa849c877ec3852e7ef60d61a56ad8621c1b97655236b269c6"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kfet/gorun/releases/download/v0.1.0/gorun-0.1.0-linux-arm64.tar.gz"
-      sha256 "94207ede7f30ca6b7921400c5de0eee74ab355b0ea9e1a1d77f8ea0d03d8de15"
+      sha256 "eaa26ff40a10ec36d6a001f3e846d40ae1d09a9107ca71cdd182cae05b0c59a7"
     end
     on_intel do
       url "https://github.com/kfet/gorun/releases/download/v0.1.0/gorun-0.1.0-linux-amd64.tar.gz"
-      sha256 "d07c4ff3b619fc85e6a1acab5a23561d37f8f62248ad1cbf731eae3bb04ae1d5"
+      sha256 "a0acbbbf4996c6d2d6dab0e45aef0536ffbf3c224e9cc443a232d8eea375d9ca"
     end
   end
 
@@ -40,5 +40,3 @@ class Gorun < Formula
     assert_match "gorun", shell_output("#{bin}/gorun version 2>&1")
   end
 end
-
-# verify-marker 1783068594
